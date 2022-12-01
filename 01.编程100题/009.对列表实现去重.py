@@ -1,7 +1,7 @@
 lst = [1, 1, 2, 2, 3, 4, 5, 5, 6, 6, 6, 6, 6, 6]
-print(len(lst))
-# print(list(set(lst)))
-
+# 直接使用set函数 转化为集合(集合不能有重复元素)
+print(list(set(lst)))
+#结果：[1,2,3,4,5,6]
 
 List = [3,3,2,4,4,5]
 NewList = []
